@@ -1,5 +1,4 @@
 module.exports = {
-  extends: 'peterkhayes',
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'generic' }],
   },
