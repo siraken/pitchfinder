@@ -1,12 +1,17 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.8.1/schema.json",
-	"organizeImports": {
-		"enabled": true
-	},
+	"organizeImports": { "enabled": true },
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"recommended": false,
+			"style": {
+				"useConsistentArrayType": {
+					"level": "error",
+					"options": { "syntax": "generic" }
+				}
+			}
 		}
-	}
+	},
+	"overrides": [{ "include": ["test/**/*.ts"] }]
 }

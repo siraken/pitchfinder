@@ -1,4 +1,4 @@
-.eslintrc
+biome.jsonc
 .babelrc
 .travis.yml
 src
